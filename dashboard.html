@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusCode | Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="brand-logo">
+            <span class="slash black"></span>
+            <span class="slash purple"></span>
+            <span class="slash lime"></span>
+        </div>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#my-events">My Events</a>
+                <a href="#events">Events</a>
+                <a href="login.html">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="dashboard">
+
+        <!-- Welcome Section -->
+        <section class="welcome">
+            <h1>Welcome to Your Dashboard!</h1>
+            <p>Manage your CampusCode activities here.</p>
+        </section>
+
+        <!-- Profile Card -->
+        <section class="profile-card">
+            <h2>Student Profile</h2>
+            <p><strong>Name:</strong> Student Name</p>
+            <p><strong>Email:</strong> student@example.com</p>
+            <p><strong>College:</strong> Your College</p>
+        </section>
+
+        <!-- My Events -->
+        <section id="my-events" class="dashboard-section">
+            <h2>My Events</h2>
+
+            <div class="event-card">
+                <h3>CampusCode ReBuild '26</h3>
+                <p>Hackathon Registration</p>
+                <span>Registered</span>
+            </div>
+        </section>
+
+        <!-- Events -->
+        <section id="events" class="dashboard-section">
+            <h2>Upcoming Events</h2>
+
+            <div class="event-card">
+                <h3>CampusCode ReBuild '26</h3>
+                <p>Build. Compete. Ship.</p>
+                <button type="button">View Details</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
